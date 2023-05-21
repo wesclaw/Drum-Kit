@@ -1,0 +1,45 @@
+body {
+  background-color: lightcoral;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/hans-vivek-By96LAr-34o-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.key {
+  background-color: rgba(0, 0, 0, 0.699);
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: .09s;
+  color: ghostwhite;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.playing {
+  border: 1px solid lightgreen;
+  transform: scale(1.1);
+}
